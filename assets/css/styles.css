@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Manrope", sans-serif;
+    background-color: #000;
+}
+
+/*=============== common =========== */
+a {
+    text-decoration: none;
+}
+
+.content {
+    padding: 80px 64px 65px;
+    width: 1607px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 64px;
+    background: linear-gradient(135deg, #252e4d 0%, #15182d 100%);
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    line-height: 50px;
+    min-width: 114px;
+    padding: 0 16px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #fec163 0%, #de4313 100%);
+    border-radius: 99px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+/* ====== Header ========= */
+
+.header .nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav .list {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+}
+
+.list .item a {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 1.8px;
+    opacity: 0.5;
+}
+
+.list .item a:hover {
+    opacity: 1;
+}
+
+.nav .list {
+    position: relative;
+}
+
+.list .item.home::before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 47px;
+    /* top: 500px; */
+    right: 475px;
+    width: 69px;
+    height: 4px;
+    background-color: #fff;
+}
+
+/* ============ hero ========== */
+
+.hero {
+    margin-top: 66px;
+}
+
+.hero .hero-fixed {
+    display: flex;
+}
+
+.hero-fixed .info {
+    padding-top: 51px;
+    /* width: 57.8%; */
+    width: 50%;
+}
+
+.hero-fixed .info .title {
+    color: #fff;
+    font-size: 9.6rem;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.hero-fixed .info .title span {
+    color: #706af6;
+}
+
+.hero-fixed .info .desc {
+    margin-top: 48px;
+    color: #fff;
+    width: 80%;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2;
+    opacity: 0.5;
+}
+
+.hero-fixed .info .row {
+    margin-top: 64px;
+    display: flex;
+}
+
+.hero-fixed .row .btn {
+    width: 169px;
+    margin-right: 24px;
+}
+
+.hero-fixed .row .watch-demo {
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: #ffffff33;
+}
+
+.hero-fixed .row .watch-demo span {
+    color: #fff;
+}
+
+.hero-fixed .right-img {
+    width: 50%;
+}
+
+/* ======= Hero footer ======  */
+.hero-footer {
+    margin-top: 95px;
+}
+
+.hero-footer .list-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-footer .list-icons .icon {
+    color: #424242;
+}
